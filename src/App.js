@@ -1,12 +1,13 @@
 import Trivia from "./components/trivia";
 import WeatherComponent from "./components/WeatherComponent";
+import NewsComponent from "./components/NewsComponent";
 
 function App() {
 
   return (
     <>
       <div className="App">
-        <h1>Trivia and Weather conerted correctly</h1>
+        <h1>All converted correctly</h1>
       </div>
     </>
   );
