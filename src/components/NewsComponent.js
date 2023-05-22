@@ -33,8 +33,14 @@ function News() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  function wait() {
+    for (let i = 0; i < 1000000; i++) {}
+  }
+
   return (
     <>
+      {" "}
+      {wait()}
       {Object.keys(newsObj).map((num) =>
         num < 5 ? (
           <div className="App">
